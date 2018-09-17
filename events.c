@@ -21,5 +21,5 @@ int		main()
 	win_ptr = mlx_new_window(mlx_ptr, 500, 500, "mlx 42");
 	mlx_pixel_put(mlx_ptr, win_ptr, 250, 250, 0xFFFFFF);
 	mlx_key_hook(win_ptr, deal_key, (void*)0);
-	mlx_lopp(win_ptr);
+	mlx_loop(mlx_ptr);
 }
