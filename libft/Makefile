@@ -80,7 +80,8 @@ SRC		=   ft_strlen.c \
         	ft_strrev.c \
         	ft_count_letters.c \
         	ft_count_word.c \
-        	ft_abs.c
+        	ft_abs.c \
+			get_next_line.c
 
 
 OBJ	=	$(SRC:.c=.o)

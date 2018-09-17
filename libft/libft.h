@@ -23,6 +23,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+int					get_next_line(const int fd, char **line);
 size_t				ft_strlen(const char *s);
 void				ft_bzero(void *s, size_t n);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
