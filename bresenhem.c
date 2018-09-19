@@ -1,7 +1,18 @@
 #include <mlx.h>
 #include <math.h>
+#include <stdlib.h>
 
 #define roundf(x) floor(x + 0.5f);
+
+int 	max(int x, int y)
+{
+	int max;
+
+	max = x;
+	if (x < y)
+		max = y;
+	return (max);
+}
 
 void 	line(void *mlx_ptr, void *win_ptr, int x1, int y1, int x2, int y2)
 {
@@ -67,6 +78,9 @@ int		main()
 
 	mlx_ptr = mlx_init();
 	win_ptr = mlx_new_window(mlx_ptr, 500, 500, "mlx 42");
-	line(mlx_ptr, win_ptr, 15, 15, 235,235);
+	line(mlx_ptr, win_ptr, 100, 100, 400, 100);
+	line(mlx_ptr, win_ptr, 400, 100, 400, 400);
+   	line(mlx_ptr, win_ptr, 400, 400, 100, 400);
+	line(mlx_ptr, win_ptr, 100, 400, 100, 100);	
 	mlx_loop(mlx_ptr);
 }
