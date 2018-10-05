@@ -36,3 +36,31 @@ t_list	*ft_lstnew(const void *content, size_t content_size)
 	}
 	return (new);
 }
+
+void	**ft_lst_expand(t_list	*list)
+{
+	size_t  i;
+	t_list 	*temp;
+	void	**res;
+
+	if (list == 0)
+		return (NULL);
+	i = 0;
+	temp = list;
+	while (temp)
+	{
+		temp = temp->next;
+		i++;
+	}
+	res = (void**)malloc(sizeof(*res) * (i + 1));
+	res[i] = NULL;
+	i = 0;
+	while (list)
+	{
+		res[i] = malloc(list->content_size);
+		ft_memcpy(res[i], list->content, list->content_size);
+		list = list->next;
+		i++;
+	}
+	return (res);
+}
