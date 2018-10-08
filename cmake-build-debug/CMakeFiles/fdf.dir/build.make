@@ -138,9 +138,48 @@ CMakeFiles/fdf.dir/Srcs/draw_image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/draw_image.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/draw_image.c -o CMakeFiles/fdf.dir/Srcs/draw_image.c.s
 
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../Srcs/key_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fdf.dir/Srcs/key_hook.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/Srcs/key_hook.c.o   -c /Users/okuznets/Programming/FdF/Srcs/key_hook.c
+
+CMakeFiles/fdf.dir/Srcs/key_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/Srcs/key_hook.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/FdF/Srcs/key_hook.c > CMakeFiles/fdf.dir/Srcs/key_hook.c.i
+
+CMakeFiles/fdf.dir/Srcs/key_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/key_hook.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/key_hook.c -o CMakeFiles/fdf.dir/Srcs/key_hook.c.s
+
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: ../Srcs/zoom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fdf.dir/Srcs/zoom.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/Srcs/zoom.c.o   -c /Users/okuznets/Programming/FdF/Srcs/zoom.c
+
+CMakeFiles/fdf.dir/Srcs/zoom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/Srcs/zoom.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/FdF/Srcs/zoom.c > CMakeFiles/fdf.dir/Srcs/zoom.c.i
+
+CMakeFiles/fdf.dir/Srcs/zoom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/zoom.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/zoom.c -o CMakeFiles/fdf.dir/Srcs/zoom.c.s
+
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: ../Srcs/change_angle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fdf.dir/Srcs/change_angle.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/Srcs/change_angle.c.o   -c /Users/okuznets/Programming/FdF/Srcs/change_angle.c
+
+CMakeFiles/fdf.dir/Srcs/change_angle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/Srcs/change_angle.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/FdF/Srcs/change_angle.c > CMakeFiles/fdf.dir/Srcs/change_angle.c.i
+
+CMakeFiles/fdf.dir/Srcs/change_angle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/change_angle.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/change_angle.c -o CMakeFiles/fdf.dir/Srcs/change_angle.c.s
+
 CMakeFiles/fdf.dir/Srcs/main.c.o: CMakeFiles/fdf.dir/flags.make
 CMakeFiles/fdf.dir/Srcs/main.c.o: ../Srcs/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fdf.dir/Srcs/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fdf.dir/Srcs/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/Srcs/main.c.o   -c /Users/okuznets/Programming/FdF/Srcs/main.c
 
 CMakeFiles/fdf.dir/Srcs/main.c.i: cmake_force
@@ -151,19 +190,6 @@ CMakeFiles/fdf.dir/Srcs/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/main.c -o CMakeFiles/fdf.dir/Srcs/main.c.s
 
-CMakeFiles/fdf.dir/Srcs/validate.c.o: CMakeFiles/fdf.dir/flags.make
-CMakeFiles/fdf.dir/Srcs/validate.c.o: ../Srcs/validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fdf.dir/Srcs/validate.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/Srcs/validate.c.o   -c /Users/okuznets/Programming/FdF/Srcs/validate.c
-
-CMakeFiles/fdf.dir/Srcs/validate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/Srcs/validate.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/FdF/Srcs/validate.c > CMakeFiles/fdf.dir/Srcs/validate.c.i
-
-CMakeFiles/fdf.dir/Srcs/validate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/Srcs/validate.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/FdF/Srcs/validate.c -o CMakeFiles/fdf.dir/Srcs/validate.c.s
-
 # Object files for target fdf
 fdf_OBJECTS = \
 "CMakeFiles/fdf.dir/Srcs/read_map.c.o" \
@@ -172,8 +198,10 @@ fdf_OBJECTS = \
 "CMakeFiles/fdf.dir/Srcs/rotate.c.o" \
 "CMakeFiles/fdf.dir/Srcs/bresenhem.c.o" \
 "CMakeFiles/fdf.dir/Srcs/draw_image.c.o" \
-"CMakeFiles/fdf.dir/Srcs/main.c.o" \
-"CMakeFiles/fdf.dir/Srcs/validate.c.o"
+"CMakeFiles/fdf.dir/Srcs/key_hook.c.o" \
+"CMakeFiles/fdf.dir/Srcs/zoom.c.o" \
+"CMakeFiles/fdf.dir/Srcs/change_angle.c.o" \
+"CMakeFiles/fdf.dir/Srcs/main.c.o"
 
 # External object files for target fdf
 fdf_EXTERNAL_OBJECTS =
@@ -184,12 +212,14 @@ fdf_EXTERNAL_OBJECTS =
 ../fdf: CMakeFiles/fdf.dir/Srcs/rotate.c.o
 ../fdf: CMakeFiles/fdf.dir/Srcs/bresenhem.c.o
 ../fdf: CMakeFiles/fdf.dir/Srcs/draw_image.c.o
+../fdf: CMakeFiles/fdf.dir/Srcs/key_hook.c.o
+../fdf: CMakeFiles/fdf.dir/Srcs/zoom.c.o
+../fdf: CMakeFiles/fdf.dir/Srcs/change_angle.c.o
 ../fdf: CMakeFiles/fdf.dir/Srcs/main.c.o
-../fdf: CMakeFiles/fdf.dir/Srcs/validate.c.o
 ../fdf: CMakeFiles/fdf.dir/build.make
 ../fdf: ../libft/CMakeFiles/liblibft.a.a
 ../fdf: CMakeFiles/fdf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable ../fdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable ../fdf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fdf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -127,10 +127,16 @@
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/bresenhem.c">
 			<Option target="fdf"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/change_angle.c">
+			<Option target="fdf"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/count_projection.c">
 			<Option target="fdf"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/draw_image.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/key_hook.c">
 			<Option target="fdf"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/main.c">
@@ -145,7 +151,7 @@
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/rotate.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/validate.c">
+		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/zoom.c">
 			<Option target="fdf"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/FdF/libft/ft_abs.c">

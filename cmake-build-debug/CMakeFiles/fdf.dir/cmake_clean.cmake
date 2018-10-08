@@ -5,8 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/fdf.dir/Srcs/rotate.c.o"
   "CMakeFiles/fdf.dir/Srcs/bresenhem.c.o"
   "CMakeFiles/fdf.dir/Srcs/draw_image.c.o"
+  "CMakeFiles/fdf.dir/Srcs/key_hook.c.o"
+  "CMakeFiles/fdf.dir/Srcs/zoom.c.o"
+  "CMakeFiles/fdf.dir/Srcs/change_angle.c.o"
   "CMakeFiles/fdf.dir/Srcs/main.c.o"
-  "CMakeFiles/fdf.dir/Srcs/validate.c.o"
   "../fdf.pdb"
   "../fdf"
 )

@@ -6,6 +6,11 @@ CMakeFiles/fdf.dir/Srcs/bresenhem.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/bresenhem.c.o: ../Srcs/bresenhem.c
 CMakeFiles/fdf.dir/Srcs/bresenhem.c.o: /usr/local/include/mlx.h
 
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: ../Includes/fdf.h
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: ../Srcs/change_angle.c
+CMakeFiles/fdf.dir/Srcs/change_angle.c.o: /usr/local/include/mlx.h
+
 CMakeFiles/fdf.dir/Srcs/count_projection.c.o: ../Includes/fdf.h
 CMakeFiles/fdf.dir/Srcs/count_projection.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/count_projection.c.o: ../Srcs/count_projection.c
@@ -15,6 +20,11 @@ CMakeFiles/fdf.dir/Srcs/draw_image.c.o: ../Includes/fdf.h
 CMakeFiles/fdf.dir/Srcs/draw_image.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/draw_image.c.o: ../Srcs/draw_image.c
 CMakeFiles/fdf.dir/Srcs/draw_image.c.o: /usr/local/include/mlx.h
+
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../Includes/fdf.h
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../Srcs/key_hook.c
+CMakeFiles/fdf.dir/Srcs/key_hook.c.o: /usr/local/include/mlx.h
 
 CMakeFiles/fdf.dir/Srcs/main.c.o: ../Includes/fdf.h
 CMakeFiles/fdf.dir/Srcs/main.c.o: ../libft/libft.h
@@ -34,5 +44,8 @@ CMakeFiles/fdf.dir/Srcs/rotate.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/rotate.c.o: ../Srcs/rotate.c
 CMakeFiles/fdf.dir/Srcs/rotate.c.o: /usr/local/include/mlx.h
 
-CMakeFiles/fdf.dir/Srcs/validate.c.o: ../Srcs/validate.c
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: ../Includes/fdf.h
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: ../Srcs/zoom.c
+CMakeFiles/fdf.dir/Srcs/zoom.c.o: /usr/local/include/mlx.h
 

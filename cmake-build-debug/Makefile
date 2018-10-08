@@ -166,6 +166,33 @@ Srcs/bresenhem.c.s:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/bresenhem.c.s
 .PHONY : Srcs/bresenhem.c.s
 
+Srcs/change_angle.o: Srcs/change_angle.c.o
+
+.PHONY : Srcs/change_angle.o
+
+# target to build an object file
+Srcs/change_angle.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/change_angle.c.o
+.PHONY : Srcs/change_angle.c.o
+
+Srcs/change_angle.i: Srcs/change_angle.c.i
+
+.PHONY : Srcs/change_angle.i
+
+# target to preprocess a source file
+Srcs/change_angle.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/change_angle.c.i
+.PHONY : Srcs/change_angle.c.i
+
+Srcs/change_angle.s: Srcs/change_angle.c.s
+
+.PHONY : Srcs/change_angle.s
+
+# target to generate assembly for a file
+Srcs/change_angle.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/change_angle.c.s
+.PHONY : Srcs/change_angle.c.s
+
 Srcs/count_projection.o: Srcs/count_projection.c.o
 
 .PHONY : Srcs/count_projection.o
@@ -219,6 +246,33 @@ Srcs/draw_image.s: Srcs/draw_image.c.s
 Srcs/draw_image.c.s:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/draw_image.c.s
 .PHONY : Srcs/draw_image.c.s
+
+Srcs/key_hook.o: Srcs/key_hook.c.o
+
+.PHONY : Srcs/key_hook.o
+
+# target to build an object file
+Srcs/key_hook.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/key_hook.c.o
+.PHONY : Srcs/key_hook.c.o
+
+Srcs/key_hook.i: Srcs/key_hook.c.i
+
+.PHONY : Srcs/key_hook.i
+
+# target to preprocess a source file
+Srcs/key_hook.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/key_hook.c.i
+.PHONY : Srcs/key_hook.c.i
+
+Srcs/key_hook.s: Srcs/key_hook.c.s
+
+.PHONY : Srcs/key_hook.s
+
+# target to generate assembly for a file
+Srcs/key_hook.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/key_hook.c.s
+.PHONY : Srcs/key_hook.c.s
 
 Srcs/main.o: Srcs/main.c.o
 
@@ -328,32 +382,32 @@ Srcs/rotate.c.s:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/rotate.c.s
 .PHONY : Srcs/rotate.c.s
 
-Srcs/validate.o: Srcs/validate.c.o
+Srcs/zoom.o: Srcs/zoom.c.o
 
-.PHONY : Srcs/validate.o
+.PHONY : Srcs/zoom.o
 
 # target to build an object file
-Srcs/validate.c.o:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/validate.c.o
-.PHONY : Srcs/validate.c.o
+Srcs/zoom.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/zoom.c.o
+.PHONY : Srcs/zoom.c.o
 
-Srcs/validate.i: Srcs/validate.c.i
+Srcs/zoom.i: Srcs/zoom.c.i
 
-.PHONY : Srcs/validate.i
+.PHONY : Srcs/zoom.i
 
 # target to preprocess a source file
-Srcs/validate.c.i:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/validate.c.i
-.PHONY : Srcs/validate.c.i
+Srcs/zoom.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/zoom.c.i
+.PHONY : Srcs/zoom.c.i
 
-Srcs/validate.s: Srcs/validate.c.s
+Srcs/zoom.s: Srcs/zoom.c.s
 
-.PHONY : Srcs/validate.s
+.PHONY : Srcs/zoom.s
 
 # target to generate assembly for a file
-Srcs/validate.c.s:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/validate.c.s
-.PHONY : Srcs/validate.c.s
+Srcs/zoom.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/zoom.c.s
+.PHONY : Srcs/zoom.c.s
 
 # Help Target
 help:
@@ -368,12 +422,18 @@ help:
 	@echo "... Srcs/bresenhem.o"
 	@echo "... Srcs/bresenhem.i"
 	@echo "... Srcs/bresenhem.s"
+	@echo "... Srcs/change_angle.o"
+	@echo "... Srcs/change_angle.i"
+	@echo "... Srcs/change_angle.s"
 	@echo "... Srcs/count_projection.o"
 	@echo "... Srcs/count_projection.i"
 	@echo "... Srcs/count_projection.s"
 	@echo "... Srcs/draw_image.o"
 	@echo "... Srcs/draw_image.i"
 	@echo "... Srcs/draw_image.s"
+	@echo "... Srcs/key_hook.o"
+	@echo "... Srcs/key_hook.i"
+	@echo "... Srcs/key_hook.s"
 	@echo "... Srcs/main.o"
 	@echo "... Srcs/main.i"
 	@echo "... Srcs/main.s"
@@ -386,9 +446,9 @@ help:
 	@echo "... Srcs/rotate.o"
 	@echo "... Srcs/rotate.i"
 	@echo "... Srcs/rotate.s"
-	@echo "... Srcs/validate.o"
-	@echo "... Srcs/validate.i"
-	@echo "... Srcs/validate.s"
+	@echo "... Srcs/zoom.o"
+	@echo "... Srcs/zoom.i"
+	@echo "... Srcs/zoom.s"
 .PHONY : help
 
 
