@@ -14,6 +14,8 @@
 
 void	zoom_up(t_key_hook_param param)
 {
+    if (param.plane->zoom >= 35)
+        return ;
 	param.plane->zoom += 1;
 	draw_image((int***)param.plane->map, *param.plane, param.image);
 	mlx_put_image_to_window(param.mlx->mlx_ptr,
@@ -22,6 +24,8 @@ void	zoom_up(t_key_hook_param param)
 
 void	zoom_down(t_key_hook_param param)
 {
+    if (param.plane->zoom <= 3)
+        return ;
 	param.plane->zoom -= 1;
 	draw_image((int***)param.plane->map, *param.plane, param.image);
 	mlx_put_image_to_window(param.mlx->mlx_ptr,
