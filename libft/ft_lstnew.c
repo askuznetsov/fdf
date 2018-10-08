@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okuznets <okuznets@student.42.fr>          +#+  +:+       +#+        */
+/*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/12 16:54:13 by okuznets          #+#    #+#             */
-/*   Updated: 2018/01/16 17:35:26 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/08 17:06:45 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ t_list	*ft_lstnew(const void *content, size_t content_size)
 	return (new);
 }
 
-void	**ft_lst_expand(t_list	*list)
+void	**ft_lst_expand(t_list *list)
 {
-	size_t  i;
-	t_list 	*temp;
+	size_t	i;
+	t_list	*temp;
 	void	**res;
 
 	if (list == 0)

@@ -62,6 +62,9 @@ typedef  struct  s_key_hook_param
 	t_image	*image;
 }				t_key_hook_param;
 
+int			error_map(char ***map);
+int			error_file(int nbr);
+int			error_argc(int nbr);
 void		angle_left(t_key_hook_param param);
 void		angle_right(t_key_hook_param param);
 void 		zoom_down(t_key_hook_param param);
