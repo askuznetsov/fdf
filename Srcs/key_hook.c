@@ -47,7 +47,6 @@ void	to_up(t_key_hook_param param)
 
 int		key_hook(int key, t_key_hook_param *param)
 {
-	system("leaks fdf");
 	ft_memset(param->image->img_data, 0, param->image->sz_ln * HGHT);
 	if (key == 123)
 		to_left(*param);
