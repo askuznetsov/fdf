@@ -1,6 +1,0 @@
-/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir
-/Users/okuznets/Programming/FdF/libft/CMakeFiles/CMakeFiles/rebuild_cache.dir
-/Users/okuznets/Programming/FdF/libft/CMakeFiles/CMakeFiles/edit_cache.dir
-/Users/okuznets/Programming/FdF/libft/CMakeFiles/CMakeFiles/libft.a.dir

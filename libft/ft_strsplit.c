@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okuznets <okuznets@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/11 16:28:51 by okuznets          #+#    #+#             */
-/*   Updated: 2018/01/17 19:37:19 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/09 17:05:52 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,16 @@ static char			*ft_setarray(const char *s, char c, char *ar, size_t i)
 	return (ar);
 }
 
+char				**init_wods(size_t words, const char *s)
+{
+	char **str;
+
+	if (!s || !(str = (char **)malloc(sizeof(char *) * words + 1)))
+		return (NULL);
+	str[words] = NULL;
+	return (str);
+}
+
 char				**ft_strsplit(const char *s, char c)
 {
 	char	**str;
@@ -33,9 +43,8 @@ char				**ft_strsplit(const char *s, char c)
 
 	i = 0;
 	words = ft_count_word(s, c);
-	if (!s || !(str = (char **)malloc(sizeof(char *) * words + 1)))
+	if ((str = init_wods(words, s)) == NULL)
 		return (NULL);
-	str[words] = NULL;
 	k = 0;
 	while (i < words)
 	{
