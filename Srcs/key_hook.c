@@ -6,11 +6,12 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/08 14:19:32 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/08 15:34:51 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/09 16:44:32 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fdf.h"
+#include <stdio.h>
 
 void	to_left(t_key_hook_param param)
 {
@@ -46,7 +47,8 @@ void	to_up(t_key_hook_param param)
 
 int		key_hook(int key, t_key_hook_param *param)
 {
-	ft_memset(param->image->img_data, 0, param->image->sz_ln * hght);
+	system("leaks fdf");
+	ft_memset(param->image->img_data, 0, param->image->sz_ln * HGHT);
 	if (key == 123)
 		to_left(*param);
 	if (key == 124)
@@ -63,5 +65,7 @@ int		key_hook(int key, t_key_hook_param *param)
 		angle_left(*param);
 	if (key == 84)
 		angle_right(*param);
+	if (key == 53)
+		exit(1);
 	return (0);
 }

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/okuznets/Programming/FdF/Srcs/change_angle.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/change_angle.c.o"
   "/Users/okuznets/Programming/FdF/Srcs/count_projection.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/count_projection.c.o"
   "/Users/okuznets/Programming/FdF/Srcs/draw_image.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/draw_image.c.o"
+  "/Users/okuznets/Programming/FdF/Srcs/errors.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/errors.c.o"
   "/Users/okuznets/Programming/FdF/Srcs/key_hook.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/key_hook.c.o"
   "/Users/okuznets/Programming/FdF/Srcs/main.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/main.c.o"
   "/Users/okuznets/Programming/FdF/Srcs/put_image.c" "/Users/okuznets/Programming/FdF/cmake-build-debug/CMakeFiles/fdf.dir/Srcs/put_image.c.o"

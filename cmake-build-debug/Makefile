@@ -247,6 +247,33 @@ Srcs/draw_image.c.s:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/draw_image.c.s
 .PHONY : Srcs/draw_image.c.s
 
+Srcs/errors.o: Srcs/errors.c.o
+
+.PHONY : Srcs/errors.o
+
+# target to build an object file
+Srcs/errors.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/errors.c.o
+.PHONY : Srcs/errors.c.o
+
+Srcs/errors.i: Srcs/errors.c.i
+
+.PHONY : Srcs/errors.i
+
+# target to preprocess a source file
+Srcs/errors.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/errors.c.i
+.PHONY : Srcs/errors.c.i
+
+Srcs/errors.s: Srcs/errors.c.s
+
+.PHONY : Srcs/errors.s
+
+# target to generate assembly for a file
+Srcs/errors.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/Srcs/errors.c.s
+.PHONY : Srcs/errors.c.s
+
 Srcs/key_hook.o: Srcs/key_hook.c.o
 
 .PHONY : Srcs/key_hook.o
@@ -431,6 +458,9 @@ help:
 	@echo "... Srcs/draw_image.o"
 	@echo "... Srcs/draw_image.i"
 	@echo "... Srcs/draw_image.s"
+	@echo "... Srcs/errors.o"
+	@echo "... Srcs/errors.i"
+	@echo "... Srcs/errors.s"
 	@echo "... Srcs/key_hook.o"
 	@echo "... Srcs/key_hook.i"
 	@echo "... Srcs/key_hook.s"

@@ -136,6 +136,9 @@
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/draw_image.c">
 			<Option target="fdf"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/errors.c">
+			<Option target="fdf"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/FdF/Srcs/key_hook.c">
 			<Option target="fdf"/>
 		</Unit>

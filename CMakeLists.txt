@@ -29,7 +29,8 @@ set(SOURCES
         "key_hook.c"
         "zoom.c"
         "change_angle.c"
-        "main.c")
+        "main.c"
+        "errors.c")
 PREPEND(SOURCES_REL ${SDIR} ${SOURCES})
 
 set(CMAKE_C_FLAGS "-Wall -Werror -Wextra")

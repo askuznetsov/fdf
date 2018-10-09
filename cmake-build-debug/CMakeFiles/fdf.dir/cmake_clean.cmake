@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fdf.dir/Srcs/zoom.c.o"
   "CMakeFiles/fdf.dir/Srcs/change_angle.c.o"
   "CMakeFiles/fdf.dir/Srcs/main.c.o"
+  "CMakeFiles/fdf.dir/Srcs/errors.c.o"
   "../fdf.pdb"
   "../fdf"
 )

@@ -21,6 +21,11 @@ CMakeFiles/fdf.dir/Srcs/draw_image.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/draw_image.c.o: ../Srcs/draw_image.c
 CMakeFiles/fdf.dir/Srcs/draw_image.c.o: /usr/local/include/mlx.h
 
+CMakeFiles/fdf.dir/Srcs/errors.c.o: ../Includes/fdf.h
+CMakeFiles/fdf.dir/Srcs/errors.c.o: ../libft/libft.h
+CMakeFiles/fdf.dir/Srcs/errors.c.o: ../Srcs/errors.c
+CMakeFiles/fdf.dir/Srcs/errors.c.o: /usr/local/include/mlx.h
+
 CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../Includes/fdf.h
 CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/Srcs/key_hook.c.o: ../Srcs/key_hook.c

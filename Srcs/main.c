@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/28 11:13:23 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/08 15:09:34 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/09 16:50:00 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,14 @@ int		plane_init(t_plane *plane, char ***map)
 	return (0);
 }
 
+void	init_val(t_plane *plane, t_key_hook_param *param, t_mlx *mlx)
+{
+	plane->zoom = 15;
+	plane->posx = 150;
+	plane->posy = 150;
+	param->mlx = mlx;
+}
+
 int		main(int argc, char **argv)
 {
 	t_plane				plane;
@@ -52,15 +60,12 @@ int		main(int argc, char **argv)
 	plane.map = read_map(fd);
 	if (error_map(plane.map))
 		return (0);
-	plane.zoom = 15;
-	plane.posx = 150;
-	plane.posy = 150;
-	param.mlx = &mlx;
+	init_val(&plane, &param, &mlx);
 	param.plane = &plane;
 	param.image = &image;
 	plane_init(&plane, plane.map);
 	mlx.mlx_ptr = mlx_init();
-	mlx.win_ptr = mlx_new_window(mlx.mlx_ptr, wdth, hght, "fdf");
+	mlx.win_ptr = mlx_new_window(mlx.mlx_ptr, WDTH, HGHT, "fdf");
 	image = put_image(mlx.mlx_ptr);
 	draw_image((int ***)plane.map, plane, &image);
 	mlx_put_image_to_window(mlx.mlx_ptr, mlx.win_ptr, image.img_ptr, 0, 0);

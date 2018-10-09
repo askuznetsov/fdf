@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/28 17:54:50 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/03 14:46:38 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/09 16:25:33 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,6 @@
 #include <math.h>
 #include <stdlib.h>
 #include <fdf.h>
-
-int		max(int x, int y)
-{
-	int max;
-
-	max = x;
-	if (x < y)
-		max = y;
-	return (max);
-}
 
 void	vertical_line(t_point start, t_point end, t_image *image)
 {
@@ -38,7 +28,8 @@ void	vertical_line(t_point start, t_point end, t_image *image)
 	x = start.x;
 	while (y < end.y)
 	{
-		*image_point(image, (int)floor(x), y) = 0xFFFFFF;
+		if (x >= 0 && x < 800 && y >= 0 && y < 600)
+			*image_point(image, (int)floor(x), y) = 0xFFFFFF;
 		y++;
 		x += coeff;
 	}
@@ -57,7 +48,8 @@ void	horizontal_line(t_point s, t_point e, t_image *image)
 	x = s.x;
 	while (x < e.x)
 	{
-		*image_point(image, x, (int)floor(y)) = 0xFFFFFF;
+		if (x >= 0 && x < 800 && y >= 0 && y < 600)
+			*image_point(image, x, (int)floor(y)) = 0xFFFFFF;
 		x++;
 		y += coeff;
 	}
