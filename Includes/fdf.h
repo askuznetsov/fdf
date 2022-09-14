@@ -17,7 +17,7 @@
 # define HGHT 600
 
 # include "libft.h"
-# include "/usr/local/include/mlx.h"
+# include "../minilibx_macos/mlx.h"
 
 typedef struct	s_image
 {

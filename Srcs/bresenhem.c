@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include </usr/local/include/mlx.h>
 #include <math.h>
 #include <stdlib.h>
 #include <fdf.h>
