@@ -9,3 +9,7 @@
 # Controls
 
 Arrow keys to move.
+
+# Usage
+
+`./fdf 42.fdf`
